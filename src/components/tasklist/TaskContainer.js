@@ -10,7 +10,6 @@ class TaskContainer extends Component {
         }
       });
       let groups = currentGroups.map( (group, i) => <TaskGroup group={group} key={i} taskListData={this.props.taskListData} />);
-      console.log(groups);
     return (
       <div>
         <h1>This is the task list</h1>
